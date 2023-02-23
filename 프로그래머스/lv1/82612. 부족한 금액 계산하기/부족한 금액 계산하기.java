@@ -7,7 +7,7 @@ class Solution {
         	sum += price*i;
         }
         
-        answer = money-sum<0 ? -(money-sum) : 0;
+        answer = money<sum ? -(money-sum) : 0;
         return answer;
     }
 }
