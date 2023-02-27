@@ -16,6 +16,6 @@ class Solution {
         		}
         	}
         }
-        return answer = st.empty()? true:false;
+        return answer = st.empty();
     }
 }
